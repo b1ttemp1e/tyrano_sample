@@ -21,7 +21,7 @@
 
 てんてんてんてんてんてん！！[l][r]
 
-[bg storage=youchu.jpg time=500]
+[bg storage=sanagi.jpg time=500]
 
 さなぎになった！[l][r]
 
