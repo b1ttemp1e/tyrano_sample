@@ -1,46 +1,74 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="ちょうです"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「ようちゅです」[l][r]
 
-メロスは激怒した。[l][r]
+ちょうになりたいです[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+おねがいします[l][r]
 
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sanagi] →さなぎになる [endlink][r]
+[link target=*tag_end] →やめる [endlink][r]
 [s]
 
-*tag_sleep
+*tag_sanagi
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+てんてんてんてんてんてん！！[l][r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+[bg storage=youchu.jpg time=500]
 
-【 BAD END 】[l][cm]
-
-[jump target=*start]
-
-*tag_run
-
-[bg storage=run.jpg time=500]
+さなぎになった！[l][r]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
-【 GOOD END 】[l][cm]
+ちょうになりたいです[l][r]
+？？！：ちょうにしますか？[l][r]
+
+[link target=*tag_choucho] →ちょうになる [endlink][r]
+[link target=*tag_end2]→やっぱやめる [endlink][r]
+[s]
+
+*tag_choucho
+
+[cm]
+
+てんてんてんてんてんてん！！[l][r]
+
+[bg storage=bug_morpho_chou.png time=500]
+
+ちょうになった！[l][r]
+
+おしまい[l][r]
+
+[cm]
 
 [jump target=*start]
+
+*tag_end
+
+つちにかえる[l][cm]
+
+おしまい[l][r]
+
+[cm]
+
+[jump target=*start]
+
+
+*tag_end2
+[freeimage layer="base"]
+
+つちにかえる[l][cm]
+
+おしまい[l][r]
+
+[cm]
+
+[jump target=*start]
+
